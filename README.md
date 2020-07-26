@@ -1,2 +1,2 @@
 # DisableCommands
-A Simple Pocketmine-MP Plugin that allows you to disable commands you wish to disable.
+A Simple Pocketmine-MP Plugin that allows you to disable commands you wish to disable in your server.
