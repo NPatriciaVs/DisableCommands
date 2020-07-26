@@ -1,0 +1,9 @@
+name: DisableCommands
+main: MXGLatoya\DisableCommands\Main
+api: 3.0.0
+mcpe-protocol:
+  - 389
+  - 390
+  - 407
+version: 1.0.0
+author: MXGLatoya
