@@ -13,6 +13,7 @@ class Main extends PluginBase {
         $cmp = $this->getServer()->getCommandMap();
 
         foreach((new Config($this->getDataFolder()."config.yml", Config::YAML))->get("cmd") as $cmdlist){
+            if ($cmdlist === null) return;
             $cmp->unregister($cmp->getCommand($cmdlist));
         }
     }
