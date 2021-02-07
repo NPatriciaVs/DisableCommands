@@ -2,6 +2,7 @@ name: DisableCommands
 main: MXGLatoya\DisableCommands\Main
 api: 3.0.0
 mcpe-protocol:
+  - 422
   - 389
   - 390
   - 407
